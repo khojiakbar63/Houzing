@@ -644,7 +644,7 @@ h4:hover {
 }
 @media only screen and (max-width: 420px){
   #recommended{
-    margin-bottom: 50px;
+    margin-bottom: 150px;
   }
 }
 
@@ -652,7 +652,9 @@ h4:hover {
 #choose{
   min-height: 434px;
   background-color: var(--bgc-2);
-  padding: 48px;
+  padding: 84px 0 48px;
+  margin-top: 40px;
+
 }
 #choose .wrapper{
 
