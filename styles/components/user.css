@@ -1,0 +1,42 @@
+.user_card {
+   background-color: #fff;
+   position: absolute;
+   right: 140px;
+   top: -230px;
+   height: 121px;
+   width: 177px;
+   padding: 16px;
+   z-index: 99999;
+   box-shadow: 0 2px 10px #e4dadaca;
+}
+.user_card a {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   text-decoration: none;
+   display: block;
+   margin-bottom: 16px;
+   color: #000;
+   cursor: pointer;
+   transition: .2s;
+}
+.user_card a:hover{
+   color: #b15a5a;
+}
+
+.active__user__panel{
+   animation-name: showUserPanel;
+   animation-fill-mode: backwards;
+   animation-timing-function: linear;
+   animation-duration: .2s;
+}
+
+@keyframes showUserPanel {
+   to{
+      top: -130px
+   }
+}
+
+
+
+

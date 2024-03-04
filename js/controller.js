@@ -27,4 +27,25 @@ var swiper = new Swiper(".mySwiper", {
      el: ".swiper-pagination",
      clickable: true,
    },
+   breakpoints: {
+    0:{
+      slidesPerView: 1
+    },
+    992:{
+      slidesPerView: 2
+    },
+    1210:{
+      slidesPerView: 3
+    }
+   }
  });
+
+//  Toggle
+var userCard = document.getElementsByClassName('user_card');
+var userClick = document.getElementById('user_btn');
+var toggleButton = document.getElementById('toggle');
+
+toggleButton.addEventListener('click', function(){
+  userCard.classList.toggle('active__user__panel')
+})
+
